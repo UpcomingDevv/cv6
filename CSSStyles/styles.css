@@ -1,0 +1,186 @@
+/****************TAG Selector*************/
+
+
+
+body {margin: 0;
+  text-align:center;
+  background-color: #a4a9d6;
+
+
+}
+
+div {background-color: rgb(255, 72, 0);
+height : 800px;
+margin:0;
+ border-radius: 10%}
+
+
+h1 {
+font-family: 'Gloria Hallelujah', cursive,serif;
+color: #fdf853;
+font-size: 4rem;
+
+}
+
+p {font-family: 'Acme', sans-serif;}
+
+h3 {color: yellow; font-family: 'Permanent Marker', cursive;}
+h3:hover {color: #527bef}
+a {font-family: 'Permanent Marker', cursive;color:yellow}
+
+
+
+/*****************Class Selector*******************/
+.education {border-radius:10%;float: left;margin-right:30px;
+  transition:0.1s}
+
+
+
+.workexperience {border-radius: 10%;float: left;margin-right:30px}
+.waleed {border-radius: 100%;border:solid 1rem ;border-color:#83a95c;position: absolute; right:52rem;top:5rem;transition:0.2s}
+.waleed:hover {border:solid blue; transform: rotate(360deg);border-width:10px}
+.table1 {padding: 0 10px 10px 10px; font-family: 'Acme', sans-serif;}
+.table2 {padding-left: 0;font-family: 'Acme', sans-serif;}
+.upcomingdevv {font-size: 1.5rem;font-weight:normal;line-height:2;position:absolute;top: 18rem;right:34rem}
+.div2 {width: 30%;text-align:left;height:300px;position:absolute;top: 50.5rem; border-radius: 10%;transition:0.2s}
+.div2:hover {transform: scale(1.03);}
+.div3 {width:30%;margin:auto auto auto auto;text-align:left;height:300px;position:absolute;right:0;top:50.5rem; border-radius: 10%;transition:0.2s}
+.div3:hover {transform: scale(1.03);}
+.div4 {width: 38.5%;margin:auto auto auto auto;text-align:left;height:300px;position:absolute;top:50.5rem;right:24.3rem; border-radius:  10%;transition:0.2s}
+.div4:hover {transform: scale(1.03);}
+.paragraph1 {line-height: 2;}
+
+
+.upcoming {text-decoration:underline;}
+
+.cloud {
+padding-top: 100px;
+position: relative; left:250px ; top:30px}
+
+
+
+.cloud2 {position: absolute; top:400px;left:250px }
+
+.skills {height:150px ; width: 150px;float:left; margin: 30px;}
+
+
+.signup {position:absolute;top: 1rem; right: 2rem; }
+.signup:hover {color:#527bef}
+
+
+.button {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 64px;
+   line-height: 64px;
+   color: #FFFFFF;
+   font-family: Times New Roman;
+   width: 120px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 0;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   position: absolute;
+   right: 2rem;
+   top: 8rem;
+   transition:0.3s
+
+
+}
+
+.button:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+   transform: scale(1.1)
+}
+
+
+
+.button2 {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 64px;
+   line-height: 64px;
+   color: #FFFFFF;
+   font-family: Times New Roman;
+   width: 120px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 0;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   position: absolute;
+   right: 2rem;
+   top: 2rem;
+   transition:0.3s
+
+
+
+
+
+
+}
+
+.button2:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+   transform: scale(1.1)
+}
+
+.hobbies2 {transition:0.2s}
+
+.hobbies2:hover {
+transform: scale(1.2);
+
+
+
+
+
+color:blue;}
